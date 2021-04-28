@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Baskerville, monospace;
+    font-size: 14px;
+}
+h1,h2,h3,h4{
+    font-family: 'Times New Roman', serif;
+    font-weight:400;
+    color: black;
+}
+
+.part1 h1{
+    font-family: 'Times New Roman', serif;
+}
+.part1 p{
+    text-align: center;
+    width:60%;
+    margin: 0 auto;
+    padding-top:1%;
+    padding-bottom: 1%;
+    line-height: 30px;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    background-color: #dca44b;
+    width:8%;
+  }
+.full-width{
+    background-color:#ffffff;
+    border-bottom:4px solid lightgray;
+    padding: 0;
+}
+
+.color{
+    width:75%;
+    margin:0 auto;
+}
+.icon-bar{
+    background-color: black;
+}
+.navbar-brand {
+    height: auto;
+}
+.navbar-right {
+    margin-top: 25px;
+}
+.color .menu ul li a{
+    letter-spacing: 2px;
+    color: black;
+}
+.color .menu ul li a:hover{
+    color: #dca44b;
+}
+
+/*Carousel Start Here*/
+.custom{
+    padding: 0;
+    margin: 0;
+}
+.carousel .item{
+    background-image:url("../img/img2.jpg");
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+}
+
+.carousel .item1{
+    background-image: url("../img/img3.jpg");
+    background-size: cover;
+}
+.carousel .item2{
+    background-image: url("../img/img4.jpg");
+    background-size: cover;
+}
+.carousel-inner .caption{
+    text-align: center;
+    color:#dca44b;
+}
+.carousel-inner .caption h1{
+    margin-top: 25%;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 5px ;
+    font-size: 70px ;  
+    color:#dca44b;
+}
+.carousel-inner .caption p{
+    color:#dca44b;
+    padding-top: 1%;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+/*About Us*/
+.aboutus{
+    width:100%;
+    background-color:#f0f0f0;
+}
+.section1{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    padding: 4% 0;
+}
+
+  .part2{
+      padding-top:3%;
+  }
+ 
+  .part2 .box i{
+    color:#dca44b;
+    font-size:32px;
+  }
+  .part2 .box h3{
+      padding-bottom: 1%;
+  }
+  .part2 .box p{
+      line-height: 25px;
+      word-spacing: 2%;
+      text-align: center;
+      padding:1%;
+  }
+  /*Customer Feedback*/
+  .main{
+      width: 100%;
+      background-color: #dca44b;
+      background-image: url("../img/img5.jpg");  
+      background-size: cover; 
+      margin: 0 auto;
+      
+  }
+  .section2{
+      width:80%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 4%;
+  }
+  .section2 .part1 h1{
+      color:#dca44b;
+  }
+  .section2 .part1 p{
+      color:#fff;
+  }
+  /* Carousel Customer Feedback start here*/
+  .imgcust .carousel .item{
+      width: 50vw;
+      height: 55vh;
+      margin: 0 auto;
+     background-image: none;
+     margin-top: 3%;
+     
+}
+
+.testimonials-img img{
+    width: 14vw;
+    height:35vh;
+}
+.imgcust .carousel .item .test img{
+    border:4px solid #dca44b;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+.imgcust .carousel .item p{
+    color:#fff;
+}
+.imgcust .carousel .item cite{
+    color:#dca44b;
+}
+/*Our Staff Start Here*/
+.staff{
+    width:100%;
+    background-color:#f0f0f0;
+}
+.section3{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    padding: 4% 0;
+}
+.team{
+    margin-top:10%;
+}
+.team img{
+    height:30vh;
+    width:60%;
+}
+.team .img-thumbnail{
+    background-color:gainsboro;
+}
+.team h4,h5{
+    font-family: Arial, Baskerville, monospace;
+}
+/*Services Start Here*/
+.services{
+    width:100%;
+    background-color:#ffffff;
+}
+.section4{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    padding: 4% 0;
+}
+.check{
+    text-align: left;
+    padding-top:5%;
+}
+.icon {
+    border: 1px solid goldenrod;
+    padding:5% 0;
+    text-align: center;
+}
+.icon i{
+    font-size:45px;
+    color: goldenrod;   
+}
+.check h4{
+    text-align: left;
+    font-family: Arial, Baskerville, monospace;
+}
+/*Photo Gallery Start Here*/
+
+.photo-gallery {
+    color:#313437;
+    background-color:#f0f0f0;
+    text-align: center;
+  }
+ 
+  .photo-gallery .photos {
+    margin: 2%;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+  
+  .photo-gallery  img{
+      width:100%;
+      height: 35vh;
+      border:2px solid lightgrey;
+    border-radius: 5%;}
+
+/*Footer*/
+.footer{
+    width:100%;
+    background-color:#363636;
+    height: 30vh;
+    text-align: center;
+}
+.footer i{
+    color:#fff;
+    font-size: x-large;
+    margin-right: 1%;
+    margin-top: 6%;
+}
+.footer i:hover{
+    color:#dca44b;
+}
